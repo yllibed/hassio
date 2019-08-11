@@ -1,6 +1,6 @@
 {
     "name": "zigbee2mqttassistant",
-    "version": "0.1.0-dev.23",
+    "version": "0.1.0",
     "slug": "zigbee2mqttassistant",
     "description": "Zigbee2Mqtt Assistant - GUI for Zigbee2Mqtt",
     "url": "https://github.com/yllibed/Zigbee2MqttAssistant",
@@ -16,7 +16,7 @@
         "mqttusername": "",
         "mqttpassword": ""
     },
-    "schema": {},
+    "schema": false,
     "ports": {
         "80/tcp": 8880
     },
