@@ -11,10 +11,12 @@
     ],
     "boot": "auto",
     "options": {
-        "mqttserver": "mqtt",
-        "mqttport": 1883,
-        "mqttusername": "",
-        "mqttpassword": ""
+        "settings": {
+            "mqttserver": "mqtt",
+            "mqttport": 1883,
+            "mqttusername": "",
+            "mqttpassword": ""
+        }
     },
     "schema": false,
     "ports": {
