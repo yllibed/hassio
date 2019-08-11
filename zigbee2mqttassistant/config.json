@@ -23,5 +23,5 @@
     "ports_description": {
         "80/tcp": "GUI http access"
       },
-    "image": "carldebilly/zigbee2mqttassistant:linux-x64"
+    "image": "carldebilly/zigbee2mqttassistant"
   }
