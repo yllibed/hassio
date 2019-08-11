@@ -1,0 +1,26 @@
+{
+    "name": "zigbee2mqttassistant",
+    "version": "0.1.0-dev.23",
+    "slug": "zigbee2mqttassistant",
+    "description": "Zigbee2Mqtt Assistant - GUI for Zigbee2Mqtt",
+    "url": "https://github.com/yllibed/Zigbee2MqttAssistant",
+    "startup": "application",
+    "webui": "http://[HOST]:[PORT:80]/",
+    "arch": [
+      "amd64"
+    ],
+    "boot": "auto",
+    "options": {
+        "mqttserver": "mqtt",
+        "mqttport": 1883,
+        "mqttusername": "",
+        "mqttpassword": ""
+    },
+    "ports": {
+        "80/tcp": 8880
+    },
+    "ports_description": {
+        "80/tcp": "GUI http access"
+      },
+    "image": "carldebilly/zigbee2mqttassistant:0.1.0-dev.23"
+  }
