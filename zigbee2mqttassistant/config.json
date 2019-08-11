@@ -16,6 +16,7 @@
         "mqttusername": "",
         "mqttpassword": ""
     },
+    "schema": {},
     "ports": {
         "80/tcp": 8880
     },
