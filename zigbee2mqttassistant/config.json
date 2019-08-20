@@ -1,1 +1,34 @@
-{"name":"zigbee2mqttassistant","version":"0.2.0-dev.47","slug":"zigbee2mqttassistant","description":"Zigbee2Mqtt Assistant - GUI for Zigbee2Mqtt","url":"https://github.com/yllibed/Zigbee2MqttAssistant","startup":"application","webui":"http://[HOST]:[PORT:80]/","arch":["amd64"],"boot":"auto","options":{"settings":{"mqttserver":"mqtt","mqttport":1883,"mqttusername":"","mqttpassword":""}},"schema":false,"ports":{"80/tcp":null},"ports_description":{"80/tcp":"GUI http access (not required for HASS.IO ingress)"},"image":"carldebilly/zigbee2mqttassistant","ingress":true,"ingress_port":80,"panel_icon":"mdi:mixcloud","panel_title":"Zigbee2Mqtt","panel_admin":true}
+{
+    "name": "zigbee2mqttassistant",
+    "version": "0.2.0-dev.47",
+    "slug": "zigbee2mqttassistant",
+    "description": "Zigbee2Mqtt Assistant - GUI for Zigbee2Mqtt",
+    "url": "https://github.com/yllibed/Zigbee2MqttAssistant",
+    "startup": "application",
+    "webui": "http://[HOST]:[PORT:80]/",
+    "arch": [
+        "amd64",
+        "armv7"
+    ],
+    "boot": "auto",
+    "options": {
+        "settings": {
+            "mqttserver": "mqtt",
+            "mqttusername": "",
+            "mqttpassword": ""
+        }
+    },
+    "schema": false,
+    "ports": {
+        "80/tcp": null
+    },
+    "ports_description": {
+        "80/tcp": "GUI http access (not required for HASS.IO ingress)"
+    },
+    "image": "carldebilly/zigbee2mqttassistant",
+    "ingress": true,
+    "ingress_port": 80,
+    "panel_icon": "mdi:mixcloud",
+    "panel_title": "Zigbee2Mqtt",
+    "panel_admin": true
+}
