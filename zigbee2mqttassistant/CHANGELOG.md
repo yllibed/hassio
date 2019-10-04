@@ -1,3 +1,8 @@
+# Version 0.2.0-dev.115
+* Improved support for _dev_ version of Zigbee2Mqtt.
+* Fixed glitches when using `/` in a device name.
+* Improved logging by removing annoying useless messages.
+
 # Version 0.2.0-dev.94
 * Fixed warning `zigbee2mqtt/bridge/config/remove`
 * Now supports devices with a `/` in their name
