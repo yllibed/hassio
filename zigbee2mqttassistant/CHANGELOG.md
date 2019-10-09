@@ -1,3 +1,6 @@
+# Version 0.2.0-dev.131
+* Improved the new network map + fixed few glitches
+
 # Version 0.2.0-dev.120
 * Added an interactive map visualizer
 * Javascript files are now served locally, so it will work even if your browser is not connected to Internet.
