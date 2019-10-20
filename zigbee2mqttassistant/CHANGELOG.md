@@ -1,3 +1,6 @@
+# Version 0.2.0-dev.144
+* Improved the new network map to show inactive links as red
+
 # Version 0.2.0-dev.131
 * Improved the new network map + fixed few glitches
 
