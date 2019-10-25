@@ -1,3 +1,6 @@
+# Version 0.3.0
+* Added ability to configure polling schedule. [More information here](https://github.com/yllibed/Zigbee2MqttAssistant#settings).
+
 # Version 0.2.0-dev.150
 * Added ability to deactivate certificate check when using TLS (useful for self-signed certificates).
 
