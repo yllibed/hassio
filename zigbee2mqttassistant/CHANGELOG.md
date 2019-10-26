@@ -1,3 +1,8 @@
+# Versopm 0.3.1
+* Fixed a bug in previous version (0.3.0) were many network could be launched at the same time.
+* Added a manual network scan feature
+* Reduced the network scan rate to 3 hours
+
 # Version 0.3.0
 * Added ability to configure polling schedule. [More information here](https://github.com/yllibed/Zigbee2MqttAssistant#settings).
 
