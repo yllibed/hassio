@@ -1,3 +1,6 @@
+# Version 0.3.82
+* Creation of a "dev" branch for testing prereleases. The `zigbee2mqttassistant` will only receive builds known to be good and tested. If you want the latest more buggy version, switch to `zigbee2mqttassistant-dev`.
+
 # Version 0.3.1
 * Fixed a bug in previous version (0.3.0) were many network could be launched at the same time.
 * Added a manual network scan feature
