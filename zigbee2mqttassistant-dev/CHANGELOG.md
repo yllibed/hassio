@@ -1,2 +1,7 @@
-# 0.3.xxx
-* New repo, nothing to report for now. Come back soon!
+# 0.3.87
+Removed useless warning in output log
+* "Last_seen" now supports any format + new auto-set when not activated (can be disabled)
+* Added support for last_seen in devices list Koenkk/zigbee2mqtt#1910
+* Added support for various format of last_seen (epoch & ISO formats)
+* Added ability to set last_seen feature when not activated on Z2M
+* Added a protection against concurrent network scans
