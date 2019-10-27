@@ -1,5 +1,9 @@
+# 0.3.88
+* Improved compatibility with next version of Zigbee2Mqtt (edge version)
+* Always fetch the css files locally instead of trying from the cloud first.
+
 # 0.3.87
-Removed useless warning in output log
+* Removed useless warning in output log
 * "Last_seen" now supports any format + new auto-set when not activated (can be disabled)
 * Added support for last_seen in devices list Koenkk/zigbee2mqtt#1910
 * Added support for various format of last_seen (epoch & ISO formats)
