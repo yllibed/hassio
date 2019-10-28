@@ -1,6 +1,7 @@
 # 0.3.88
 * Improved compatibility with next version of Zigbee2Mqtt (edge version)
 * Always fetch the css files locally instead of trying from the cloud first.
+* Now prints the version information on start
 
 # 0.3.87
 * Removed useless warning in output log
