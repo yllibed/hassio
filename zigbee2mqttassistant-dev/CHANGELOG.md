@@ -1,3 +1,6 @@
+# Version 0.3.90
+* [Bug #92](https://github.com/yllibed/Zigbee2MqttAssistant/issues/92) Fix useless error in log when sending a command (`/set` topic) to a device with a slash (`/`) in its name
+
 # Version 0.3.89
 * Migrated from netcore2.2 to netcore3.0
 * Now using _alpine_ image for containers (still official Microsoft images)
