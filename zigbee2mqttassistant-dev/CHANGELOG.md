@@ -1,3 +1,7 @@
+# Version 0.3.95
+* Added new `AllowJoinTimeout` setting to auto-off _allow join_ of Zigbee network. Default is 20 minutes.
+* Removed old `zigbee2mqttassistant-aarch64` package from hass.io store.
+
 # Version 0.3.90
 * [Bug #92](https://github.com/yllibed/Zigbee2MqttAssistant/issues/92) Fix useless error in log when sending a command (`/set` topic) to a device with a slash (`/`) in its name
 
