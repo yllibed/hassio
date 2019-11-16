@@ -1,3 +1,6 @@
+# Version 0.3.105
+* Changed the default value of `AutosetLastSeen` to `false`. <https://github.com/yllibed/Zigbee2MqttAssistant/issues/117>
+
 # Version 0.3.95
 * Added new `AllowJoinTimeout` setting to auto-off _allow join_ of Zigbee network. Default is 20 minutes.
 * Removed old `zigbee2mqttassistant-aarch64` package from hass.io store.
