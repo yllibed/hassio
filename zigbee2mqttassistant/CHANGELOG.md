@@ -1,3 +1,18 @@
+# Version 0.3.105
+* Changed the default value of `AutosetLastSeen` to `false`. <https://github.com/yllibed/Zigbee2MqttAssistant/issues/117>
+
+# Version 0.3.95
+* Added new `AllowJoinTimeout` setting to auto-off _allow join_ of Zigbee network. Default is 20 minutes.
+* Removed old `zigbee2mqttassistant-aarch64` package from hass.io store.
+
+# Version 0.3.90
+* [Bug #92](https://github.com/yllibed/Zigbee2MqttAssistant/issues/92) Fix useless error in log when sending a command (`/set` topic) to a device with a slash (`/`) in its name
+
+# Version 0.3.89
+* Migrated from netcore2.2 to netcore3.0
+* Now using _alpine_ image for containers (still official Microsoft images)
+* Experimental support for ARM64/aarch64
+
 # Version 0.3.88
 * Improved compatibility with next version of Zigbee2Mqtt (edge version)
 * Always fetch the css files locally instead of trying from the cloud first.
