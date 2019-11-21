@@ -1,3 +1,6 @@
+# Version 0.3.108
+* Fixed [_bouncy network map_](https://github.com/yllibed/Zigbee2MqttAssistant/issues/120) display for map. External contribution by [Dan Chen](https://github.com/djchen) - thanks.
+
 # Version 0.3.105
 * Changed the default value of `AutosetLastSeen` to `false`. <https://github.com/yllibed/Zigbee2MqttAssistant/issues/117>
 
