@@ -1,3 +1,6 @@
+# Version 0.3.120
+* Added new `Configure` feature on devices. On the device page, use it to force Zigbee2Mqtt to reconfigure the device. It could help if the device is not reporting properly its status on the network.
+
 # Version 0.3.119
 * Added support for 'force_remove' feature (Z2M 1.7.0+) <https://github.com/yllibed/Zigbee2MqttAssistant/issues/107>
 
