@@ -1,5 +1,5 @@
 # Version 0.3.119
-* Added support for force_remove feature (Z2M 1.7.0+)
+* Added support for 'force_remove' feature (Z2M 1.7.0+) <https://github.com/yllibed/Zigbee2MqttAssistant/issues/107>
 
 # Version 0.3.108
 * Fixed [_bouncy network map_](https://github.com/yllibed/Zigbee2MqttAssistant/issues/120) display for map. External contribution by [Dan Chen](https://github.com/djchen) - thanks.
