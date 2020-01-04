@@ -1,3 +1,6 @@
+# Version 0.3.122
+* Fixed problem `Another devices request already in progress.` in the output log.
+
 # Version 0.3.120
 * Added new `Configure` feature on devices. On the device page, use it to force Zigbee2Mqtt to reconfigure the device. It could help if the device is not reporting properly its status on the network.
 
