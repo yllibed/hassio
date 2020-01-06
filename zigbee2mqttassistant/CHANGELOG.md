@@ -1,3 +1,15 @@
+# Version 0.3.122
+* Fixed problem `Another devices request already in progress.` in the output log.
+
+# Version 0.3.120
+* Added new `Configure` feature on devices. On the device page, use it to force Zigbee2Mqtt to reconfigure the device. It could help if the device is not reporting properly its status on the network.
+
+# Version 0.3.119
+* Added support for 'force_remove' feature (Z2M 1.7.0+) <https://github.com/yllibed/Zigbee2MqttAssistant/issues/107>
+
+# Version 0.3.108
+* Fixed [_bouncy network map_](https://github.com/yllibed/Zigbee2MqttAssistant/issues/120) display for map. External contribution by [Dan Chen](https://github.com/djchen) - thanks.
+
 # Version 0.3.105
 * Changed the default value of `AutosetLastSeen` to `false`. <https://github.com/yllibed/Zigbee2MqttAssistant/issues/117>
 
