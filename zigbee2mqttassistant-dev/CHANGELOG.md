@@ -1,3 +1,6 @@
+# version 0.3.125
+* Added image of the devices (need online connection) with a fallback to a default image.
+
 # Version 0.3.122
 * Fixed problem `Another devices request already in progress.` in the output log.
 
