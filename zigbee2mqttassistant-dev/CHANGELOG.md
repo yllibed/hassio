@@ -1,3 +1,6 @@
+# Version 0.3.132
+- `last_seen` from device updates were not properly updated when the format was ISO, so display were not accurate.
+
 # Version 0.3.129
 - Misc fixes around device images.
 
