@@ -1,3 +1,6 @@
+# Version 0.3.133
+- Fixed publication of `arm64` was missing in the stable docker manifest.
+
 # Version 0.3.132
 - `last_seen` from device updates were not properly updated when the format was ISO, so display were not accurate.
 
