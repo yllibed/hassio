@@ -1,3 +1,6 @@
+# Version 0.3.138
+- Fixed potential crash when the MQTT is disconnected/restarted
+
 # Version 0.3.133
 - Fixed publication of `arm64` was missing in the stable docker manifest.
 
