@@ -20,9 +20,18 @@
     },
     "schema": {
         "settings": {
+            "basetopic": "str?",
+            "homeassistantdiscoverybasetopic": "str?",
             "mqttserver": "str",
+            "mqttsecure":"str?",
+            "mqttport": "int?",
             "mqttusername": "str",
-            "mqttpassword": "password"
+            "mqttpassword": "password",
+            "lowbatterythreshold": "int?",
+            "allowjointimeout": "int?",
+            "autosetlastseen": "bool?",
+            "devicespollingschedule": "str?",
+            "networkscanschedule": "str?"
         }
     },
     "ports": {
