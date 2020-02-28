@@ -1,3 +1,6 @@
+# Version 0.3.144
+- Added support for OTA (Big thanks to [Magnus Pernemark](https://github.com/magpern) for implementing it)
+
 # Version 0.3.138
 - Fixed potential crash when the MQTT is disconnected/restarted
 
