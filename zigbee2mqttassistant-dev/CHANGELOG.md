@@ -1,3 +1,6 @@
+# Version 0.3.145
+- Added support for Touchlink pairing/reset feature (Big thanks to [Magnus Pernemark](https://github.com/magpern) for implementing it)
+
 # Version 0.3.144
 - Added support for OTA (Big thanks to [Magnus Pernemark](https://github.com/magpern) for implementing it)
 
