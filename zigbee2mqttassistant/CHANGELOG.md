@@ -1,3 +1,15 @@
+# Version 0.3.145
+- Added support for Touchlink pairing/reset feature (Big thanks to [Magnus Pernemark](https://github.com/magpern) for implementing it)
+
+# Version 0.3.144
+- Added support for OTA (Big thanks to [Magnus Pernemark](https://github.com/magpern) for implementing it)
+
+# Version 0.3.138
+- Fixed potential crash when the MQTT is disconnected/restarted
+
+# Version 0.3.133
+- Fixed publication of `arm64` was missing in the stable docker manifest.
+
 # Version 0.3.133
 - Fixed publication of `arm64` was missing in the stable docker manifest.
 
