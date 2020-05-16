@@ -1,3 +1,12 @@
+# Version 0.3.157
+- Filtered-out problematic messages creating _phantom devices_. (Big thanks to [Florian Gabsteiger](https://github.com/diveflo) for this)
+
+# Version 0.3.151
+- Fixed support for linux-x64
+
+# Version 0.3.150
+- Upgraded to dotnet core 3.1 LTS. (Big thanks to [Magnus Pernemark](https://github.com/magpern) for this)
+
 # Version 0.3.145
 - Added support for Touchlink pairing/reset feature (Big thanks to [Magnus Pernemark](https://github.com/magpern) for implementing it)
 
