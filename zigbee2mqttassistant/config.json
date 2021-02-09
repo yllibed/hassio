@@ -1,6 +1,6 @@
 {
    "name":"zigbee2mqttassistant",
-   "version":"0.3.157",
+   "version":"0.3.157-tst",
    "slug":"zigbee2mqttassistant",
    "description":"Zigbee2Mqtt Assistant - GUI for Zigbee2Mqtt",
    "url":"https://github.com/yllibed/Zigbee2MqttAssistant",
@@ -11,7 +11,8 @@
       "armv7"
    ],
    "map": [
-    "config:rw"
+    "config:rw",
+    "share:rw"
   ],
    "boot":"auto",
    "options":{
