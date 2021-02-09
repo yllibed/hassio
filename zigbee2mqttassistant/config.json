@@ -1,6 +1,6 @@
 {
    "name":"zigbee2mqttassistant",
-   "version":"0.3.157-tst",
+   "version":"0.3.157",
    "slug":"zigbee2mqttassistant",
    "description":"Zigbee2Mqtt Assistant - GUI for Zigbee2Mqtt",
    "url":"https://github.com/yllibed/Zigbee2MqttAssistant",
