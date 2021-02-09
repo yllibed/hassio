@@ -12,7 +12,8 @@
    ],
    "map": [
     "config:rw",
-    "share:rw"
+    "share:rw",
+    "data:rw"
   ],
    "boot":"auto",
    "options":{
