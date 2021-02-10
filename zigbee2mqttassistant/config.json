@@ -16,11 +16,9 @@
   ],
    "boot":"auto",
    "options":{
-      "settings":{
          "mqttserver":"addon_core_mosquitto",
          "mqttusername":"",
          "mqttpassword":""
-      }
    },
    "schema":false,
    "ports":{
