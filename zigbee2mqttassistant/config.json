@@ -11,16 +11,23 @@
       "armv7"
    ],
    "map": [
-    "config:rw",
-    "share:rw"
+    "config:rw"
   ],
    "boot":"auto",
    "options":{
+      "settings":{
          "mqttserver":"addon_core_mosquitto",
          "mqttusername":"",
          "mqttpassword":""
+      }
    },
-   "schema":false,
+   "schema": {
+    "settings": {
+      "mqttserver": "str",
+      "mqttusername": "str",
+      "mqttpassword": "str"
+     }
+   },
    "ports":{
       "80/tcp":null
    },
