@@ -40,7 +40,7 @@
       "basetopic": "str?",
       "homeassistantdiscoverybasetopic": "str?",
       "lowbatterythreshold": "int(0,100)?",
-      "allowjointimeout": "int(0)?",
+      "allowjointimeout": "int(0,)?",
       "autosetlastseen": "bool?",
       "devicespollingschedule": "str?",
       "networkscanschedule": "str?"
