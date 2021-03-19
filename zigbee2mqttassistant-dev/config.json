@@ -44,7 +44,8 @@
         "autosetlastseen": "bool?",
         "devicespollingschedule": "str?",
         "networkscanschedule": "str?"
-      },
+      }
+    },
     "ports":{
        "80/tcp":null
     },
