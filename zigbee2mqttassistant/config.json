@@ -17,15 +17,33 @@
    "options":{
       "settings":{
          "mqttserver":"addon_core_mosquitto",
+         "mqttport": "",
          "mqttusername":"",
-         "mqttpassword":""
+         "mqttpassword":"",
+         "mqttsecure": false,
+         "basetopic": "zigbee2mqtt",
+         "homeassistantdiscoverybasetopic": "homeassistant",
+         "lowbatterythreshold": 30,
+         "allowjointimeout": 20,
+         "autosetlastseen": false,
+         "devicespollingschedule": "*/12 * * * *",
+         "networkscanschedule": "0 */3 * * *"
       }
    },
    "schema": {
     "settings": {
       "mqttserver": "str",
+      "mqttport": "int(0,65535)?",
       "mqttusername": "str",
-      "mqttpassword": "str"
+      "mqttpassword": "str",
+      "mqttsecure": "bool?",
+      "basetopic": "str?",
+      "homeassistantdiscoverybasetopic": "str?",
+      "lowbatterythreshold": "int(0,100)?",
+      "allowjointimeout": "int(0,)?",
+      "autosetlastseen": "bool?",
+      "devicespollingschedule": "str?",
+      "networkscanschedule": "str?"
      }
    },
    "ports":{
